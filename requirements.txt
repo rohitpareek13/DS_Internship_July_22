@@ -3,3 +3,4 @@ pandas
 pillow
 plotly
 numpy
+streamlit-option-menu
