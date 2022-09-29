@@ -23,5 +23,6 @@ def pages(selected):
     elif selected == "Find a Pub":
         main()
       
+horizontal_menu()
 if __name__ == '__main__':
     horizontal_menu()
