@@ -24,5 +24,4 @@ def pages(selected):
         main()
       
 
-if __name__ == '__main__':
-    horizontal_menu()
+horizontal_menu()
