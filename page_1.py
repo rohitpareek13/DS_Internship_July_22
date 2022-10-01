@@ -27,7 +27,7 @@ def side_menu():
     )
     if add_selectbox == "Home": 
         intro_func()
-        image = Image.open(r"./pic.jpg", mode='r')
+        image = Image.open(r"./assets/pic.jpg", mode='r')
         st.image(image, caption='Pub Image')
         
     elif add_selectbox == "Data Set Info":

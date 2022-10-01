@@ -9,7 +9,7 @@ import streamlit as st
 
 def get_dataset():
     """ Get the Dataset """
-    df = pd.read_csv(r"./dataset/clean_dataset.csv")
+    df = pd.read_csv(r"./assets/dataset/clean_dataset.csv")
     return df 
 
 def markdown_runner(md_code):
